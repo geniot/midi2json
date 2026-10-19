@@ -1,0 +1,21 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:array-flatten@3": "3.0.0",
+    "npm:midi-file@^1.2.4": "1.2.4"
+  },
+  "npm": {
+    "array-flatten@3.0.0": {
+      "integrity": "sha512-zPMVc3ZYlGLNk4mpK1NzP2wg0ml9t7fUgDsayR5Y5rSzxQilzR9FGu/EH2jQOcKSAeAfWeylyW8juy3OkWRvNA=="
+    },
+    "midi-file@1.2.4": {
+      "integrity": "sha512-B5SnBC6i2bwJIXTY9MElIydJwAmnKx+r5eJ1jknTLetzLflEl0GWveuBB6ACrQpecSRkOB6fhTx1PwXk2BVxnA=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:array-flatten@3",
+      "npm:midi-file@^1.2.4"
+    ]
+  }
+}

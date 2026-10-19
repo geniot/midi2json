@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-read --allow-write --sloppy-imports src/main.ts",
+    "prod": "deno compile --allow-read --allow-write --sloppy-imports --no-check -o midi2json src/main.ts"
+  },
+  "imports": {
+    "array-flatten": "npm:array-flatten@^3.0.0",
+    "midi-file": "npm:midi-file@^1.2.4"
+  }
+}
